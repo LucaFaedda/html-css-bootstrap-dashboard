@@ -10,7 +10,6 @@
 
 header{
     height: 100px;
-    background-color: red;
     width: 100vw;
 }
 
@@ -48,6 +47,23 @@ main{
 .height-50px{
     height: 50px;
     background-color: green;
+}
+
+
+.large-button{
+    text-align: left;
+    width: 95%;
+    background-color: #e5e5e5;
+    padding: 0.5rem 0rem;
+    border-radius: 0.35rem;
+    border: none;
+}
+
+/* header */
+
+.logo img:first-child{
+    width: 50px;
+
 }
 
 @media screen and (min-width: 992px){
