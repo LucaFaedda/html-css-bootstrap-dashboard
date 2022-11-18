@@ -5,19 +5,25 @@
 }
 
 
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
  /* struttura */
 
 
 header{
-    height: 100px;
+    height: 75px;
     width: 100vw;
+    background-color: #f8f9fa;
 }
 
 .wrapper{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 75px);
     width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 aside{
@@ -37,10 +43,23 @@ main{
 }
 
 .main-center{
-    height: calc(100vh - 175px);
+    height: calc(100vh - 150px);
 
 }
 
+ul{
+    list-style: none;
+}
+
+/* background */
+
+.background-color-white{
+    background-color: #ffff;
+}
+
+.background-color-aside{
+    background-color: #051e34;
+}
 
 /* classi di prova */
 
@@ -50,30 +69,37 @@ main{
 }
 
 
-.large-button{
-    text-align: left;
-    width: 95%;
-    background-color: #e5e5e5;
-    padding: 0.5rem 0rem;
-    border-radius: 0.35rem;
-    border: none;
-}
-
 /* header */
 
-.logo img:first-child{
+.logo-small{
     width: 50px;
-
 }
+
+.list-right ul{
+    list-style: none;
+}
+
+.btn{
+    border:1px solid;
+}
+
+
 
 @media screen and (min-width: 992px){
     
     aside{
-        width: 100px;
+        width: 150px;
     }
 
     main{
-        width: calc(100vw - 100px);
+        width: calc(100vw - 150px);
+    }
+
+
+    /* aside */
+
+    aside ul{
+        margin-left: 1rem;
     }
 }
 
