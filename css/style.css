@@ -61,6 +61,10 @@ ul{
     background-color: #051e34;
 }
 
+.background-color-topbar{
+    background-color: #1b72e8;
+}
+
 /* classi di prova */
 
 .height-50px{
@@ -83,6 +87,13 @@ ul{
     border:1px solid;
 }
 
+/* topbar */
+
+.topbar .btn{
+    border: #ffff solid 1px;
+    background-color:transparent;
+    color: #ffff;
+}
 
 
 @media screen and (min-width: 992px){
