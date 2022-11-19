@@ -37,11 +37,6 @@ main{
     overflow-y: auto;
 }
 
-.topbar{
-    background-color: blue;
-    height: 75px;
-}
-
 .main-center{
     height: calc(100vh - 150px);
 
@@ -95,6 +90,21 @@ ul{
     color: #ffff;
 }
 
+.badge-topbar{
+    padding: 1px 8px;
+    background-color: #165bba;
+    border-radius: 40px;
+    border: none;
+    color: #000;
+ }
+
+ .fon-size-14px{
+    font-size: 12px;
+ }
+
+ .fon-size-16px{
+    font-size: 16px;
+ }
 
 @media screen and (min-width: 992px){
     
