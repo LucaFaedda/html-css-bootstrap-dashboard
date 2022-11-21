@@ -17,25 +17,31 @@
         <header class="fixed-top d-flex align-items-center ">
             <div class="container-fluid">
                 <div class="row align-items-center gx-1 background-color-white">
-                    <div class="col-2  ">
+                    <div class="col-auto  ">
                         <div class="logo">
                             <img src="./img/mobile-logo.png" alt="small-logo" class="d-lg-none logo-small">
                             <img src="./img/logo.svg" alt="logo" class="d-none d-lg-block">
                         </div>
                     </div>
-                    <div class="col-9 col-lg-8  d-flex align-items-center ">
+                    <div class="col  d-flex align-items-center ">
                         <div class="input-group  ">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <button class="btn btn-outline-secondary " type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
                             <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Example text with button addon" aria-describedby="button-addon1">
                           </div>
                     </div>
-                    <div class="col-1 col-lg-2 d-flex justify-content-end">
+                    <div class="col-auto col-lg-2 d-flex justify-content-end">
                         <div class="list-right">
                             <ul class="d-flex pt-3">
                                 <li class="d-none d-lg-block pe-4"><i class="fa-solid fa-list"></i></li>
                                 <li class="d-none d-lg-block pe-4"><i class="fa-solid fa-circle-question"></i></li>
                                 <li class="d-none d-lg-block pe-4"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                                <li><i class="fa-solid fa-bell text-warning"></i></li>
+                                <li><i class="fa-solid fa-bell text-warning " role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazzione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                  </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
