@@ -63,8 +63,9 @@ ul{
 
 /* hover */
 
-aside .background-color-red:hover{
-    background-color: red;
+aside li:hover{
+    background-color: #82909b;
+    cursor: pointer;
 }
 
 .badge-topbar:hover{
