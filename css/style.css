@@ -69,6 +69,7 @@ aside .background-color-red:hover{
 
 .badge-topbar:hover{
     background-color: #043272;
+    cursor: pointer;
 }
 
 /* header */
@@ -129,6 +130,15 @@ aside .background-color-red:hover{
  #offcanvasExample{
     width: 100%;
  }
+
+ .circle{
+    border-radius: 50%;
+    padding: 5px 6px;
+    font-size: 10px;
+    background-color: #165bba;
+    margin-left: 3px;
+ }
+
 
  /* main-center */
 
