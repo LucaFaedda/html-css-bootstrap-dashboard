@@ -106,6 +106,24 @@ ul{
     font-size: 16px;
  }
 
+
+ /* main-center */
+
+
+ .fa-code{
+    border-radius: 50%;
+    padding: 5px 4px;
+    background-color: #f26551;
+ }
+
+
+ .square{
+    padding: 5px;
+    border: solid 0.5px #6c757d;
+    border-radius: 4px;
+    color: #6c757d;
+ }
+
 @media screen and (min-width: 992px){
     
     aside{
